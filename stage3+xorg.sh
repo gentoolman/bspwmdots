@@ -11,11 +11,11 @@ sudo pacman -S --noconfirm --needed ttf-font-awesome nano btop neovim vim htop t
 
 #dot files
 mkdir /home/$USER/Downloads
-mkdir /home/$USER/.config
 cd /home/$USER/Downloads
-git clone https://github.com/gentoolman/bspwm-rice-stuff
-cd 
-cp -rf Downloads/bspwm-rice-stuff/* /home/$USER/.config
+git clone https://github.com/gentoolman/bspwmdots
+cd
+cp -rf Downloads/bspwmdots/.config /home/$USER/
+cp -rf Downloads/bspwmdots/.bashrc /home/$USER/
 
 chmod +x .config/bspwm/bspwmrc
 chmod +x .config/bspwm/pywal.sh
