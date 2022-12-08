@@ -11,6 +11,7 @@ pywal_get() {
 }
 
 # Change colors
+: '
 change_color() {
 	# polybar
 	sed -i -e "s/background = #.*/background = $BG/g" $PFILE
@@ -41,6 +42,7 @@ change_color() {
 	
 	polybar-msg cmd restart
 }
+'
 
 # Main
 if [[ -x "`which wal`" ]]; then
@@ -67,7 +69,7 @@ if [[ -x "`which wal`" ]]; then
 		SH7=`printf "%s\n" "$color1"`
 		SH8=`printf "%s\n" "$color2"`
 
-		change_color
+		# change_color
 	else
 		echo -e "[!] Please enter the path to wallpaper. \n"
 		echo "Usage : ./pywal.sh path/to/image"

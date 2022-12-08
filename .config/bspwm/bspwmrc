@@ -6,7 +6,7 @@ picom -f &
 sh $HOME/.config/polybar/launch.sh &
 sh $HOME/.conf/bspwm/pywal.sh &
 nitrogen --restore &
-
+xinput --set-prop 12 'libinput Accel Speed' 0.7 &
 
 bspc monitor -d I II III IV V VI VII VIII IX X
 

@@ -20,7 +20,11 @@ super + Return
 
 # program launcher
 super + @space
-	dmenu_run
+    $HOME/.config/rofi/launchers/type-3/launcher.sh
+
+# power menu
+super + l
+    $HOME/.config/rofi/powermenu/type-4/powermenu.sh
 
 # make sxhkd reload its configuration files:
 super + Escape
