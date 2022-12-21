@@ -40,6 +40,7 @@ alias ll='ls -l --color=auto'
 alias la='ls -la --color=auto'
 alias lsa='ls -lsa --color=auto'
 alias rofi='rofi -show drun'
+alias wpa_supplicant='sudo wpa_supplicant'
 
 # Pywal
 #./.config/bspwm/pywal.sh /home/$USER/Pictures/a-bust-with-a-skull-mask-and-neon-lights-oc-wallpaper.jpg
