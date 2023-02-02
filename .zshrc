@@ -49,3 +49,5 @@ alias wpa_supplicant='sudo wpa_supplicant'
 (cat ~/.cache/wal/sequences &)
 cat ~/.cache/wal/sequences
 source ~/.cache/wal/colors-tty.sh
+
+source ${(q-)PWD}/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
